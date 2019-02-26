@@ -79,7 +79,7 @@ public class LoadingData extends TimerTask {
 						// If statement to check if hour is greater than 8
 						// If true, go inside
 						// If false, skip
-						if (hour > 7) {
+						if (hour >= 0) {
 							// If statement to check if hour is less than 16
 							// If true, go inside
 							// If false, skip
